@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>College Drop Down</title>
+       <style>
+            body {
+                  font-family: Arial,  sans-serif;
+                  background-color:   #eef2f7;
+                  padding:   40px;
+                 }
+h2 {
+color:  #2c3e50;
+}
+label {
+        font-size: 16px;
+        font-weight: bold;
+}
+select {
+         width: 250px;
+         padding: 10px;
+         font-size: 15px;
+         border: 2px solid #2980b9;
+         border-radius:  6px;
+         background-color: #fffff;
+}
+select: focus {
+     outline: none;
+     border-color:  #labc9c;
+}
+</style>
+</head>
+<body>
+       <h2>College Registration Form</h2>
+<form>
+     <label for="department">Select Department:</label><br><br>
+<select id="year"  name="year">
+       <option value="">-- Select Year --</option>
+       <option value="1">1st Year</option>
+       <option value="2">2nd Year</option>
+       <option value="3">3rd Year</option>
+</select>
+</form>
+</body>
+</html>
+</head>
